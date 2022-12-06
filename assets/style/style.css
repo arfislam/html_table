@@ -5,18 +5,24 @@ header{
 header nav ul{
     display: flex;
     justify-content: space-evenly;
+    
 }
 header nav ul li{
     list-style: none;
+    text-decoration: none;
     
+    
+}
+#flex{
+    display: flex;
+    
+}
+#box-1{
+    flex-grow: 1;
 }
 .box{
     height: 200px;
     width: 200px;
     border: 1px solid red;
-    background-color: rgb(73, 43, 48);
-    transition: width 5s;
-}
-.box:hover{
-    width: 600px;
+    background-color: green;
 }
