@@ -1,0 +1,12 @@
+header{
+    background-color: rgba(116, 114, 250, 0.747);
+    padding: 15px 0px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ul li{
+    list-style: none;
+    
+}
